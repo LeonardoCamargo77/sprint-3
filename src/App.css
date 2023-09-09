@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: rgb(76, 125, 231);
 }
 
 .logo {
@@ -38,5 +39,40 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #be7575;
 }
+nav{
+display: flex; width: 100vw;
+justify-content: center; align-items: center;
+height: 8vh; background-color: hsl(19, 39%, 62%);
+& a{color: white; font-size: 1.5em; padding: 15px; }
+}
+main{ display: flex; width: 100vw;
+flex-direction: column; justify-content: center;
+align-items: center; height: 70vh;
+}
+nav{
+  display: flex; width: 100vw;
+  justify-content: center; align-items: center;
+  height: 8vh; background-color: royalblue;
+  & a{color: white; font-size: 1.5em; padding: 15px; }
+  }
+  main{ display: flex; width: 100vw;
+  flex-direction: column; justify-content: center;
+  align-items: center; height: 70vh;
+  }
+  nav{
+    display: flex; width: 100vw;
+    justify-content: center; align-items: center;
+    height: 8vh; background-color: hsl(19, 39%, 62%);
+    & a{color: white; font-size: 1.5em; padding: 15px; }
+    }
+    main{ display: flex; width: 100vw;
+    flex-direction: column; justify-content: center;
+    align-items: center; height: 70vh;
+    }
+    footer{
+    display: flex; width: 100vw; justify-content: center;
+    align-items: center; height: 5vh;
+    background-color: hsl(19, 39%, 62%);
+    }
