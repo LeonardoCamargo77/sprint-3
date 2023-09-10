@@ -5,6 +5,8 @@ export default function Menu(){
 
     return(
         <nav className="menu">
+            <Link to='/Home'>Todos Contra a Fome</Link>
+            <span> | </span>
             <Link to='/'>Home</Link>
             <span> | </span>
             <Link to='/Agricultura'>Agricultura Sustentável</Link>

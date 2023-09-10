@@ -76,3 +76,8 @@ nav{
     align-items: center; height: 13vh;
     background-color: hsl(19, 39%, 62%);
     }
+    img{
+      width: 25%;
+      height: auto;
+    }
+ 
